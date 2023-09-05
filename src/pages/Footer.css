@@ -1,0 +1,47 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: auto;
+    background: rgb(206, 40, 41);
+    color:white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer h2{
+    font-family: "Satisfy";
+}
+
+.footer-up{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.addres{
+    display: flex;
+    align-items: center;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+}
+
+.footer-container img{
+    padding-right: 0.4rem;
+    padding-top: 0.5rem;
+}
+
+.footer-down{
+    display: flex;
+    justify-content: center;
+}

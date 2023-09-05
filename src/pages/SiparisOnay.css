@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+.success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .success h2 {
+    text-align: center;
+    margin-top: 3rem;
+    color: #ce2829;
+    font-size: 36px;
+    font-family: Satisfy;
+  }
+  
+  .success p {
+    text-align: center;
+    color: white;
+   
+  }
+  
+  .lezzet p{
+    font-family:('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    font-family: Satisfy;
+    color: #105b0f !important;
+  }
+
+  .success .siparis-alındı p{
+    margin: 0;
+    font-size: 5rem;
+  }
+  
+  .alt-kisim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+
+.onay-container h2{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.onay-down{
+  margin-bottom: 0.4rem;
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+
+
+.onay-string{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.total-order{
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #FDC913;
+  width: 50%;
+  
+}
+
+.total-order p{
+  padding-left: 1rem;
+  display: flex;
+  
+}
+
+.lezzet img{
+  max-width: 100%;
+}
+
+
+.last-container{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  align-items: center;
+}
