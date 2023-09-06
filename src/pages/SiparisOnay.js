@@ -1,5 +1,6 @@
 import React from "react";
 import "./SiparisOnay.css";
+import png from "../return.png";
 
 const SiparisOnay  = () => {
 
@@ -14,26 +15,19 @@ const SiparisOnay  = () => {
               <div className="lezzet">
                 <p >...on the way</p>
               </div>
-              <div className="siparis-alındı">
-               
-              </div>
             </div>
             <hr style={{color: "#FDC913"}}/>
             <div className="onay-down">
-                <h2 style={{color: "#ce2829"}}>Napolitan Pizza</h2>
                   <div className="last-container">
-                  <div className="onay-string">
-                    <p>Size: </p> 
-                    <p>Dough Type:</p>
-                    <p>Additional Ingredients: </p>
-                    <p>Order Note: </p>
+                    
+                    <h2>Enjoy your meal</h2>
+      
                   </div>
-                  <br/>
-              <div className="total-order">
-                  <h3 style={{color: "white" , fontFamily: "Segoe UI", fontSize:28}}>Total Order</h3>
-                  
-              </div>
-              </div>
+                  <div className="return-home"> 
+                  <a href="/" >
+                    <img src={png} alt=""/> 
+                  </a>
+                  </div>
             </div>
              
           </div>
