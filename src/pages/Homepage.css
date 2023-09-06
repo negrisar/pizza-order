@@ -63,6 +63,9 @@ html {
     transform: scale(1.1); 
   }
 
+.pizzas img{
+    width: 75%;
+}
 
 .header-container{
    background-color:  rgba(0, 4, 17, 0.3);
@@ -125,4 +128,26 @@ a{
     flex-direction: column;
 }
 
+@media only screen and (max-width: 640px) {
 
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-up{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-container{
+        height: 100%;
+        padding-top: 0;
+        padding-bottom: 2rem;
+    }
+
+    header{
+        height: 100%;
+    }
+
+}
